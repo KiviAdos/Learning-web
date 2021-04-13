@@ -46,7 +46,7 @@ li a:link, li a:visited {
 }
 
 main{
-	height: 900px;
+	height: 600px;
 	background-color: #709DCA;
 }
 
@@ -75,9 +75,34 @@ input{
 	border-radius:2px;
 	margin-left:5px;
 	width:180px;
+	padding-left: 20px;
+
 }
 
 #input_button{
 	background-color: #FFBB41;
 	color: white;
+	text-align: center;
+	padding-left: 0px;
+}
+
+#name_input{
+	background-image: url(../img/person-fill.svg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position: 5px 50%;
+}
+
+#email_input{
+	background-image: url(../img/envelope-fill.svg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position: 5px 50%;
+}
+
+#phone_input{
+	background-image: url(../img/telephone-fill.svg);
+	background-repeat: no-repeat;
+	background-position: 5px 50%;
+
 }
