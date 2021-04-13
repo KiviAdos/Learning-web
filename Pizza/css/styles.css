@@ -1,11 +1,39 @@
-* {
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+
+*, *:before, *:after{
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
 }
 
+/****************Header**************/
 
-header {
-	height: 900px;
+.header{
 	background-color: #FFD341;
+	height: 900px;
 }
+.container{
+	width:100%;
+	max-width:1170px;
+	margin:0 auto;
+}
+.headerImg {
+	background-image: url(../images/logo.png);
+	width: 100px;
+	height: 100px;
+	background-size: cover;	
+}
+
+.header__inner .headerImg {
+	float:left;
+}
+
+.header__inner nav {
+	
+}
+
+/****************Header**************/
