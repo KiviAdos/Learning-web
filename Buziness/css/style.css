@@ -5,21 +5,18 @@
 }
 body {
 	font-family: 'Lato', sans-serif;
-	font-size: 13.5px;
 	margin:0 auto 0 auto;
-	/*max-width: 1170px;*/
 }
 main > *{
-	/*max-width: 1170px;*/
 	margin-right: auto;
 	margin-left: auto;
-	/*width: 80%;*/
 }
 header{
 	max-width: 1170px;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 13.5px;
 }
 
 .container {
@@ -58,15 +55,17 @@ main{
 	background-color: #709DCA;
 }
 
-h1,h2,h3,h4,h5,h6 {
+.main_container h1, .main_container h3{
 	text-align: center;
 	color: white;
 }
 h1{
 	text-transform: uppercase;
-	/*font-weight: bolder;*/
-	color: white;
+	text-align: center;
+	font-weight: 900;
+	/*color: white;*/
 }
+
 
 .main_container > form {
 	margin-top:20px;
@@ -76,6 +75,9 @@ h1{
 .main_container{
 	padding-top:100px;
 	max-width: 1170px;
+	/*width: 80%;*/
+}
+main > *{
 	width: 80%;
 }
 
@@ -130,4 +132,38 @@ h1{
 
 .services_container{
 	height: 900px;
+	margin-top:200px;
+	color:#6e6e6e;
 }
+
+.services_container > h3 {
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.section_header{
+	font-weight: 900;
+	text-transform: uppercase;
+	/*margin-left: 30px;*/
+	left:70px;
+}
+
+.section_paragraph{
+	left:70px;
+	top:30px;
+}
+
+.services_section{
+	margin-bottom:150px;
+	width: 50%;
+	position: relative;
+	float: left;
+}
+
+.services_section > *{
+	position: absolute;
+	padding-right: 50px;
+}
+
+
