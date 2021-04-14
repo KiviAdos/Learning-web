@@ -1,21 +1,20 @@
-function isNumberOdd(number){
-	var x = null;
-	number % 2 == 1 ? x = true: x = false;
-	return x;
-}
-
-function factorial(number){
-	var temp = 1;
-	for(i = 1; i <= number; i++){
-		temp *= i;
+var carSeller1 = {
+	firstName: "Jack",
+	lastName: "White",
+	regYear: 2017,
+	hasDiscount: true,
+	discountCalculation: function() {
+		var discount;
+		var numberOfYears = 2021 - this.regYear;
+		if(numberOfYears <= 2) {
+			discount = 0;
+		} else if((numberOfYears > 2) && (numberOfYears <= 5)) {
+			discount = 20;
+		} else if(numberOfYears > 5) {
+			discount = 30;
+		}
+		return discount;
 	}
-	return temp;
 }
 
-function changeSpaceToUnderscore(string){
-	string = string.replace(/ /g,"_");
-	return string;	
-}
-console.log(isNumberOdd(23));
-console.log(factorial(0));
-console.log(changeSpaceToUnderscore("create function"))
+console.log(carSeller1.discountCalculation());

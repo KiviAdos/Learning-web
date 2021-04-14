@@ -170,4 +170,45 @@ main .main_container, main .services_container{
 	height: 625px;
 	background-color: #ffc155;
 }
+/*
+.about_us img {
+	width:50%;
+	height:100%;
+	float:left;
+}*/
 
+.about_background_img{
+	width: 50%;
+	background: url(../img/about_us_img.png);
+	height: 100%;
+	float:left;
+}
+.about_us_inner h3 {
+	/*color:white;*/
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.about_us_inner > p {
+	margin-top:10px;
+	font-size: 13.5px;
+	margin-bottom: 30px;
+}
+.about_us_inner > a {
+	text-transform: uppercase;
+	padding: 10px;
+	/*margin-top: 50px;*/
+	background-color: #e7ad48;
+}
+a:hover, a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.about_us_inner {
+	width: 80%;
+	text-align: left;
+	padding-top: 200px;
+	padding-left: 55%;
+	color:white;
+}
