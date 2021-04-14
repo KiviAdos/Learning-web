@@ -59,7 +59,7 @@ main{
 	text-align: center;
 	color: white;
 }
-h1, h2{
+h1, .services_container > h2{
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 900;
