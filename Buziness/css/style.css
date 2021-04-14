@@ -59,7 +59,7 @@ main{
 	text-align: center;
 	color: white;
 }
-h1{
+h1, h2{
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 900;
@@ -183,7 +183,7 @@ main .main_container, main .services_container{
 	height: 100%;
 	float:left;
 }
-.about_us_inner h3 {
+.about_us_inner h2 {
 	/*color:white;*/
 	text-transform: uppercase;
 	font-weight: 900;
@@ -211,4 +211,22 @@ a:hover, a:link, a:visited {
 	padding-top: 200px;
 	padding-left: 55%;
 	color:white;
+}
+
+.choose_your_price {
+	height: 900px;
+	background-color: #e7edf3;
+	padding-top:135px;
+	text-align: center;
+	color:#394b50;
+}
+
+.choose_your_price h2 {
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.choose_your_price h4 {
+	font-weight: 400;
+	color:#75888d;
 }
