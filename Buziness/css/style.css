@@ -212,78 +212,112 @@ a:hover, a:link, a:visited {
 	color:white;
 }
 
-.choose_price{
+.choose_price {
 	height: 900px;
+	padding-top: 135px;
+	text-align: center;
 	background-color: #e7edf3;
-	padding-top: 10%;
 }
-.choose_price *{
+
+.choose_price_inner {
 	width: 80%;
-	margin-right: auto;
 	margin-left: auto;
+	margin-right: auto;
 }
-.choose_price h2{
+
+.choose_price_inner > div {
+	float:left;
+}
+
+.choose_price_inner h1{
+	font-weight: 900;
+	color: #394b50;
+}
+
+.choose_price_inner > p{
+	/*color: #394b50;*/
+	color: #7d8f94;
+	font-weight: 400;
+}
+
+.price_plans#gold_plan, .price_plans#basic_plan{
+	padding: 55px 30px 50px 30px;
+}
+
+
+.price_plans * {
 	text-transform: uppercase;
 	text-align: center;
-	color:#394b50;
-	font-weight: 900;
-}
-.choose_price p{
-	font-weight: 300;
-	text-align: center;
-	color:#75888d;
+	color: #b5bbc1;
 }
 
-.choose_price_inner{
-	width:30%;
-	height: 500px;
-	background-color: #709dca;
+.price_plans#basic_plan, .price_plans#gold_plan {
+	width: 35%;
+	background-color: #ffffff;
 	border-radius: 5px;
-	margin-top:50px;
-	padding-top: 5%;
+	height: 440px;
+	margin-top:85px;
 }
 
-.choose_price_inner h2{
+.price_plans#premium_plan{
+	width:30%;
+	background-color: #709dca;
+	height: 500px;
+	margin-top:55px;
+	border-radius:5px;
+	padding: 85px 30px 85px 30px;
+}
+
+.price_plans#premium_plan p{
+	color:#c2e1ff;
+}
+.price_plans#premium_plan h1, .price_plans#premium_plan h3,
+ .price_plans#premium_plan h1 sup, .price_plans#premium_plan .per_month{
+	color:white;
+}
+
+.price_plans h3 {
 	font-weight: 300;
-	color:white;
-	padding-bottom:35px;
-
+	color: #818b95;
+	margin-bottom: 10px;
 }
 
-.choose_price_inner h1, .choose_price_inner h1 sup {
-	color:white;
+.price_plans h1, .price_plans sup{
+	color: #ffbb42;
 }
-.choose_price_inner h1{
+
+.price_plans h1{
 	font-size: 45px;
 	font-weight: 700;
 }
-.choose_price_inner h1 sup {
-	font-weight: 300;
+
+.price_plans h1 sup {
+	font-weight: 400;
 }
 
-.choose_price_inner p{
-	color: white;
-	text-transform: uppercase;
-	margin-top:15px;
-	margin-bottom: 15px;
+.price_plans .per_month {
+	margin-bottom: 33px;
+	color: #818b95;
 }
 
-.choose_price_inner hr~p{
-	color:#c2e1ff;
-}
-
-.choose_price_inner hr{
+.price_plans hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #e2e9f0;
+	border: 0px;
 	height: 1px;
-	border:none;
-	background-color: #c2e1ff;
 }
 
-.choose_price_inner p a{
-	padding:10px;
+.price_plans#premium_plan hr{
+	background-color: #8eb8e2;
+}
+.price_plans a {
+	color:#ffffff;
 	background-color: #ffbb42;
+	padding: 16px 20px;
 	border-radius: 5px;
 }
 
-#last_paragraph{
-	margin-bottom: 40px;
-}
+.last_p{ 
+	margin-top: 50px;
+ }
